@@ -1,17 +1,18 @@
-Petstore API Tests
+# Petstore API Tests
 
 Пример проекта автоматизированных тестов для публичного API [Swagger Petstore](https://petstore.swagger.io).
 
-  Стек технологий
+Тесты покрывают CRUD: POST, GET, PUT, DELETE.
+
+Добавлен pytest.ini с настройками, requirements.txt с фиксированными версиями.
+
+## Стек технологий
 - Python 3.10+
 - Pytest
 - Requests
 - Pytest-order (для последовательного запуска тестов)
 
-  Тесты покрывают CRUD: POST, GET, PUT, DELETE.
-  Добавлен pytest.ini с настройками, requirements.txt с фиксированными версиями.
-
-Как запустить проект локально:
+## Как запустить проект локально
 
 1. Клонировать репозиторий:
    ```bash
@@ -19,9 +20,8 @@ Petstore API Tests
    cd petstore-tests
 
 2. Установить зависимости:
-
+   ```
    pip install -r requirements.txt
-
-3. Запустить тесты:
-
+4. Запустить тесты:
+   ```
    pytest -v
