@@ -2,7 +2,7 @@
 
 Пример проекта автоматизированных тестов для публичного API [Swagger Petstore](https://petstore.swagger.io).
 
-Тесты покрывают CRUD: POST, GET, PUT, DELETE.
+Тесты покрывают CRUD: `POST`, `GET`, `PUT`, `DELETE`.
 
 Добавлен pytest.ini с настройками, requirements.txt с фиксированными версиями.
 
