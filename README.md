@@ -15,13 +15,15 @@
 ## Как запустить проект локально
 
 1. Клонировать репозиторий:
+   
    ```bash
    git clone https://github.com/DuxaOne/petstore-tests.git
    cd petstore-tests
-
-2. Установить зависимости:
+3. Установить зависимости:
+   
    ```
    pip install -r requirements.txt
-4. Запустить тесты:
+5. Запустить тесты:
+
    ```
    pytest -v
