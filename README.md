@@ -15,7 +15,7 @@ Petstore API Tests
 
 1. Клонировать репозиторий:
    ```bash
-   git clone https://github.com/<твоя_ссылка>/petstore-tests.git
+   git clone https://github.com/DuxaOne/petstore-tests.git
    cd petstore-tests
 
 2. Установить зависимости:
